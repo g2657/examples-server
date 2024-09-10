@@ -270,7 +270,7 @@ class ThreeDWorld {
     }
     // 模型加入场景
     addObjs() {
-        this.loader(['obj/robot.fbx', 'obj/Guitar/Guitar.fbx']).then((result) => {
+        this.loader(['obj/robot.FBX', 'obj/Guitar/Guitar.FBX']).then((result) => {
             let robot = result[0].children[1].geometry;
             let guitarObj = result[1].children[0].geometry;
             guitarObj.scale(1.5, 1.5, 1.5);
