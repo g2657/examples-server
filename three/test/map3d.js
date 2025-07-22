@@ -71,8 +71,6 @@ function createShapeWithCoord(coordinates, group, info = null) {
 
     const parameters = {
 
-        bevelEnabled: false,
-
         bevelThickness: 0,
 
         bevelSize: 0,
@@ -81,7 +79,7 @@ function createShapeWithCoord(coordinates, group, info = null) {
 
         depth: 2,
 
-        bevelEnabled: false
+        bevelEnabled: true
 
     }
 
